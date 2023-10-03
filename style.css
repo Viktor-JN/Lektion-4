@@ -22,6 +22,11 @@
     padding: 0px;
     margin: 0px;
 }
+.child1:hover,
+.child2:hover,
+.child3:hover{
+    color: orange;
+}
 .leskig{
     position: static;
     text-align: center;
@@ -34,7 +39,7 @@ img{
 .hamburgews{
     width: 50%;
     height: 50%;
-    animation: left-to-right 1s ease-in backwards infinite alternate-reverse ;
+    animation: left-to-right 1s ease-in backwards infinite alternate;
 }
 .hamburgews:hover{
     animation-play-state: paused;
@@ -47,7 +52,7 @@ img{
         transform: translateY(100%);
     }
     66%{
-        transform: translateX(100%), translateY(100%);
+        transform: translateX(100%) translateY(100%);
     }
     100%{
         transform: translateX(100%);
